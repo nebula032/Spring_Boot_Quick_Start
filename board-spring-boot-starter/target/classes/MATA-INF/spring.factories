@@ -1,0 +1,2 @@
+org.springframework.boot.sutoconfigure.EnableAutoConfiguration=\
+com.sjacob.jdbc.config.BoardAutoConfiguration
