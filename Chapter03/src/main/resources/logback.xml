@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 기본설정파일 사용 O -->
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	<logger name="com.sjacob" level="DEBUG" />
+</configuration>
+
+<!-- 기본설정파일 사용 X -->
+<!-- <configuration>
+	<appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>src/main/resources/logs/board_log.log</file>
+		
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBaseRollingPolicy">
+			<fileNamePattern>
+				src/main/resources/logs/myboard.%d{yyyy-MM-dd}.log.gz
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>
+				%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{35} : %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+		
+	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>
+				%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{35} : %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<logger name="com.sjacob" level="warn" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="fileAppender" />
+	</logger>
+	
+	<root level="error">
+		<appender-ref ref="consoleAppender" />
+	</root>
+</configuration> -->
