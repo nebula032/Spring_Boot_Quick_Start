@@ -1,6 +1,5 @@
 package com.sjacob.domain;
 
-import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.*;
@@ -15,7 +14,7 @@ import javax.persistence.*;
 				pkColumnValue = "BOARD_SEQ",
 				initialValue = 0,
 				allocationSize = 1)
-public class Board implements Serializable {
+public class Board {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.TABLE,
