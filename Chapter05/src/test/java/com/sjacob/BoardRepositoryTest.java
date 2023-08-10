@@ -23,7 +23,7 @@ public class BoardRepositoryTest {
 		System.out.println(">>> 글 등록 <<<");
 		Board board = new Board();
 		board.setTitle("제목1");
-		board.setWrtier("작성자1");
+//		board.setWriter("작성자1");
 		board.setContent("내용1");
 		board.setCreateDate(new Date());
 		board.setCnt(0L);
