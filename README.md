@@ -1,6 +1,6 @@
-# Spring_Boot_Quick_Start
-Spring_Boot_Quick_Start
-
+# 책 정보
+제목 : 누구나 끝까지 따라 할 수 있는 스프링 부트 퀵스타트<br>
+저자(글) : 채규태 저자
 # 순서 및 프러젝트 별 간단한 내용
 Chapter01 : 스프링 부트 시작(환경 설정, 프로잭트 생성)<br>
 Chapter02 : 의존성 관리 및 자동설정<br>
