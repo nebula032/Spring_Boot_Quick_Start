@@ -1,5 +1,6 @@
 # 책 정보
-<img src="https://github.com/nebula032/Spring_Quick_Start/assets/85532437/90b4d688-5315-4ec6-91a9-8a361dcf260a" width="100" height="400" />
+<img src="https://github.com/nebula032/Spring_Quick_Start/assets/85532437/90b4d688-5315-4ec6-91a9-8a361dcf260a" width="300" height="400" />
+<br>
 제목 : 누구나 끝까지 따라 할 수 있는 스프링 부트 퀵스타트<br>
 저자(글) : 채규태
 # 순서 및 프젝트 별 간단한 내용
